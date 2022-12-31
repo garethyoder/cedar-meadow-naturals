@@ -38,7 +38,7 @@ a:hover {
 p {
   margin-bottom: 1.5em;
   font-size: 18px;
-  color: #727272;
+  rgba(0, 0, 0, 0.8);
   font-weight: 300;
   font-family: "Roboto", Arial, serif;
 }
@@ -791,7 +791,6 @@ figure.effect-julia:hover p {
 
 #client-section {
    margin-top: 30px;
-   padding-bottom: 90px;
 }
 
 .client-heading {
@@ -805,6 +804,7 @@ figure.effect-julia:hover p {
 
 .client-logos {
 	margin-left: 20px;
+	max-height: 9em
 }
 
 
@@ -1385,9 +1385,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 .section-bg-color1 {
 	background-color: #eaeaea;
+	height: 50%;
+	min-height: 175px;
 	padding-top: 54px;
 	padding-bottom: 54px;
-	height: 256px;
 }
 
 .section-bg-color1 h3 {
@@ -1400,12 +1401,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 	margin-top: 40px;
 	letter-spacing: 0.1em;
 	font-size: 17px;
-	color: #E0DDDD;
 	text-align: left;
 }
 
 .section-bg-color p {
-	color: #E0DDDD;
 	font-size: 14px;
 	margin-top: -10px;
 }

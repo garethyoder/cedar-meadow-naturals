@@ -22,13 +22,13 @@
  	<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-static-top" role="navigation">
                 <div class="container">
-                    <div class="navbar-header pull-left">
+                    <div class="navbar-header float-left">
                         <a href="" class="navbar-brand">
                             <span class="brand-logo"><img src="images/cmn/meadowlark_md.png" alt=""/></span>
                             <h1 class="brand-name">Cedar Meadow Naturals</h1>
                         </a>
                     </div>
-                    <div class="main-nav pull-right">
+                    <div class="main-nav float-right">
                         <div class="button_container toggle">
                             <span class="top"></span>
                             <span class="middle"></span>
@@ -39,7 +39,7 @@
                         <nav class="overlay-menu">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-<!--                                <li><a href="studio.html">Studio</a></li>-->
+<!--                                <li><a href="become-a-vendor.html">Become a Vendor</a></li>-->
 <!--                                <li><a href="projects.html">Projects</a></li>-->
 <!--                                <li><a href="project-description.html">Project description</a></li>-->
 <!--                                <li><a href="contact.html">Contact us</a></li>-->
@@ -55,8 +55,8 @@
 	<div id="home-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 pull-right">
-						<h1 class="home-heading wow fadeInUp animated">Our All Natural Tallow Line from Cedar Meadow Meats </h1>
+					<div class="col-md-8 float-right">
+						<h1 class="home-heading wow fadeInUp animated">Our All Natural Handmade Tallow Line from Local Ingredients.</h1>
 						<div class="text-home wow fadeInUp animated"><strong>Soaps & Tallow</strong></div>
 
 					</div>
@@ -201,34 +201,124 @@
            </div>
      </div>
 
+    <!-- Products -->
+    <script id="products-template" type="text/x-handlebars-template">
+        <div class="container products">
+            <div class="row">
+                <div class="col-lg-12 text-home text-center">Our Products</div>
+            </div>
+            {{#each products}}
+                <div class="row product mb-5">
+                    <div class="product-image col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                        <img src="images/cmn/products/{{image-name}}" alt="{{title}}" class=""/>
+                    </div>
+                    <div class="product-description-group col-lg-9 col-md-8 col-sm-7 col-xs-6">
+                        <h3 class="product-title">{{title}}</h3>
+                        <p class="product-description">{{description}}</p>
+
+                        <p class="product-ingredients font-weight-light small">Ingredients: <em>{{ingredients}}</em></p>
+                        <button type="button" class="btn btn-primary product-button">Shop Now</button>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"></div>
+                </div>
+            {{/each}}
+        </div>
+    </script>
+    <div id="products-template-results"></div>
+
+    <!-- Line -->
     <div class="container">
         <div class="row">
-            <h3>Coming Soon</h3>
-            <p>Product images and listings.  In the meantime, please contact us below.</p>
+            <div class="line-symbol1"></div>
         </div>
     </div>
 
-     
-
      <!-- Clients -->
-<!--	 <div id="client-section">-->
-<!--			<div class="container">-->
-<!--				<div class="row">-->
-<!--					<div class="col-md-8 pull-right wow fadeInUp animated">-->
-<!--                    <div class="text-home">Some of our clients</div>-->
-<!--						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">-->
-<!--                        <img src="images/logo1.png" alt=""/></div>-->
-<!--                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">-->
-<!--                        <img src="images/logo3.png" alt="" class="client-logos"/> </div>-->
-<!--                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">-->
-<!--                        <img src="images/logo2.png" alt="" class="client-logos"/></div> -->
-<!--                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">-->
-<!--                        <img src="images/logo4.png" alt="" class="client-logos"/> </div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--	 </div>-->
+    <script id="clients-template" type="text/x-handlebars-template">
+        <div id="client-section">
+            <div class="container">
+                <div class="row wow fadeInUp animated">
+                    <div class="col-lg-12 text-home text-center">Our Clients</div>
+                    {{#each clients}}
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="images/cmn/vendor/{{logo-name}}" alt="{{title}}" class="client-logos"/>
+                        </div>
+                    {{/each}}
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <button type="button" class="btn btn-primary">Become a Vendor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <div id="clients-template-results"></div>
      <!-- /Clients-->
+
+    <!-- Line -->
+    <div class="container">
+        <div class="row">
+            <div class="line-symbol1"></div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-5 contact-margin wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                <h2 class="contact-heading">CONTACT US
+                    <span>Phone: 717-368-2610</span>
+                    <img src="images/photo10.jpg" alt="">
+                </h2>
+            </div>
+            <div class="col-md-7 col-sm-7 contact-margin">
+                <p class="text-contact">Drop us a line.  We would love to hear from you.
+                </p>
+                <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Name:</label>
+                            <input type="text" name="name" class="form-control" id="contact-form-name" required="" data-validation-required-message="Please enter your name.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone:</label>
+                            <input type="tel" name="phone" class="form-control" id="contact-form-phone" required="" data-validation-required-message="Please enter your phone.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email:</label>
+                            <input type="email" name="email" class="form-control" id="contact-form-email" required="" data-validation-required-message="Please enter your email address.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="5" cols="100" class="form-control" id="contact-form-message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group sr-only">
+                        <input type="text" class="form-control-input" id="contact-form-hidden" name="contact-form-hidden">
+                        <label for="contact-form-hidden">Leave Empty</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div id="success"></div>
+                    <button type="submit" class="contact-btn btn">Send Message</button>
+                    <div class="form-message">
+                        <div id="contactFormMessage" class="h3 text-center hidden"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     
      <!-- Footer-->
@@ -240,24 +330,33 @@
           <div class="col-md-6 col-sm6 section-bg-color">
             <div class="row">
               <div class="col-sm-9">
-                <h2>INFO</h2>
-                <p>Address: 2894 Oak Ln. Morgantown Pa 19543</p>
-                <p>Email: gyoder@cedarmeadowmeats.com</p>
+                <h2 class="text-light">INFO</h2>
+                <p class="text-light">Address: 2894 Oak Ln. Morgantown Pa 19543</p>
+                <p class="text-light">Email: gyoder@cedarmeadowmeats.com</p>
+
+                <p class="p-small text-muted">Cedar Meadow Naturals is a registered brand of Cedar Meadow Meats LLC</p>
+                <p class="p-small text-muted">Copyright © <span id="currentDate"></span> Cedar Meadow Meats LLC</p>
               </div><!-- /col-sm-9 -->
             </div><!--/row-->
           </div><!-- /col-sm-6 -->
           <div class="col-md-3 col-sm-3 section-bg-color1">
             <div class="row">
               <div class="col-sm-9">
-              <h3>Copyright 2023</h3>
-              <p class="pull-right"><a href=""><img src="images/twitter.png" alt=""/></a></p>
-              <p class="pull-right icons-f"><a href=""><img src="images/facebook.png" alt=""/></a></p>
+
+                  <p class="float-right"><a href=""><img src="images/twitter.png" alt=""/></a></p>
+                  <p class="float-right icons-f"><a href=""><img src="images/facebook.png" alt=""/></a></p>
+
+
               </div><!-- /col-sm-9 -->
             </div><!--/row-->
           </div><!-- /col-sm-3 -->
         </div><!-- /row -->
       </div><!-- /container -->
-    </footer><!-- /footer -->   
+    </footer><!-- /footer -->
+
+    <input type="hidden" name="environment" id="environment" value="" />
+    <input type="hidden" name="organizationId" id="organizationId" value=""/>
+    <input type="hidden" name="baseSubmissionUrl" id="baseSubmissionUrl" value=""/>
      
 	<!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
@@ -265,12 +364,19 @@
 	<script src="js/bootstrap.min.js"></script>
     <!-- Masonry JavaScript -->
     <script src="js/masonry.js"></script>
+    <!-- Include Handlebars from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <!-- Nav JS -->
 	<script src="js/nav.js"></script>
     <!-- Smooth scroll JS -->
-    <script src="js/smoothscroll.js"></script>
+<!--    <script src="js/smoothscroll.js"></script>-->
     <!-- Wow JavaScript -->
     <script src="js/wow.js"></script>
+    <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/validator.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/constants.js"></script>
+    <script src="js/script.js"></script>
     
     <script>
     new WOW().init();

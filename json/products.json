@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": "lavender-shea",
+      "title": "Lavender & Shea",
+      "description": "Lavender Shea is a nourishing soap enriched with unrefined shea butter to soothe dry skin.",
+      "ingredients": "Saponified oils of Lancaster County, PA tallow, coconut, olive, shea butter, and castor; pure lavender essential oil, arrowroot powder, and rosemary oil extract",
+      "price": 8.00,
+      "image-name": "lavender-shea.jpg",
+      "tags": "Bar Soap"
+    },
+    {
+      "id": "vetiver-sweet-orange",
+      "title": "Vetiver & Sweet Orange",
+      "description": "This delightfully moisturizing bar crafted with cocoa butter smells deliciously citrusy and floral. It's as wonderful as it sounds!",
+      "ingredients": "Saponified oils of Lancaster County, PA tallow, coconut, olive, castor, and cocoa butter; pure essential oils of sweet orange, vetiver, and geranium; rose clay, and rosemary oil extract",
+      "price": 8.00,
+      "image-name": "vetiver-sweet-orange.jpg",
+      "tags": "Bar Soap"
+    },
+    {
+      "id": "siberian-fir",
+      "title": "Siberian Fir",
+      "description": "A wonderfully soothing bar soap, Siberian Fir is crafted with cocoa butter and mineral rich sea clay for an ultra moisturizing experience.",
+      "ingredients": "Saponified oils of Lancaster County, PA tallow, coconut, olive, castor, and cocoa butter; pure essential oils of fir needle and cedar; sea clay and rosemary oil extract.",
+      "price": 8.00,
+      "image-name": "siberian-fir.jpg",
+      "tags": "Bar Soap"
+    },
+    {
+      "id": "exfoliating-herb",
+      "title": "Exfoliating Herb",
+      "description": "Experience gentle exfoliating with sage leaf grown in our very own garden. ",
+      "ingredients": "Saponified oils of Lancaster County, PA tallow, coconut, olive, castor, and shea butter; pure essential oils of rosemary, sweet basil, lemon, and eucalyptus; ground sage leaf, ground cornmeal, arrowroot powder, rosemary oil extract",
+      "price": 8.00,
+      "image-name": "exfoliating-herb.jpg",
+      "tags": "Bar Soap"
+    }
+
+  ]
+}
