@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom .navbar-brand span.brand-logo{
     display: inline-block;
     padding: 14px 0;
-    margin: 0 16px;
+    margin: 0;
 }
 
 .navbar-custom .navbar-brand span.brand-logo{
@@ -184,6 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom .navbar-brand h1.brand-name{
     text-transform: uppercase;
     display: inline-block;
+    word-wrap: break-word;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -1428,6 +1429,10 @@ body {
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
 	 margin-top: 50px;
 }
+
+.navbar-custom .navbar-brand h1.brand-name{
+    font-size: 26px;
+}
   
 .designer-top span {
     font-size: 15px;
@@ -1453,6 +1458,10 @@ body {
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
 	 font-size: 30px;
+ }
+
+ .navbar-custom .navbar-brand h1.brand-name{
+     font-size: 18px;
  }
 
 .image-project1 {
@@ -1514,8 +1523,6 @@ body {
 	font-size: 17px;
 }
 
-
-
 }
 
 @media(min-width:768px) {
@@ -1556,6 +1563,10 @@ header {
   
 body {
   border: 10px solid #669999;
+}
+
+.navbar-custom .navbar-brand h1.brand-name{
+    font-size: 14px;
 }
 
 figure.effect-julia h2 {

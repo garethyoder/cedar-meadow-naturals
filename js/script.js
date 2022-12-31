@@ -53,7 +53,7 @@ $(function(){
     var contactFormValidationSettings = {
         messages: {
             name: "Please specify your name.",
-            phone: "Please add your phone."
+            phone: "Please add your phone.",
             email: {
               required: "Please enter your email.",
               email: "Your email address must be in the format of name@domain.com"
