@@ -7,7 +7,7 @@
         if (URL.includes("dev") || URL.includes("localhost")) {
             $("#environment").val("dev");
             $("#organizationId").val("27ad1cb5-5dde-4328-9fdc-bfec00aa474a");
-            $("#baseSubmissionUrl").val("https://5zmad1qxli.execute-api.us-east-1.amazonaws.com/dev");
+            $("#baseSubmissionUrl").val("https://1ywgkjq5x4.execute-api.us-east-1.amazonaws.com/dev");
             console.log("dev test environment")
         } else {
             $("#environment").val("prod");

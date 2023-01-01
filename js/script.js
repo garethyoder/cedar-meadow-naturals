@@ -105,8 +105,9 @@ $(function(){
                     contactFormSuccess();
                     enableButton($element)
                 },
-                error: function () {
+                error: function (request, status, error) {
                     // show an error message
+                    console.error(error);
                     contactFormError();
                     contactFormMessage(false, "An error occurred on submission.  Please contact gyoder@cedarmeadowmeats.com");
                     enableButton($element)
