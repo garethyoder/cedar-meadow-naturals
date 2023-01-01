@@ -62,7 +62,6 @@ $(function(){
     }
     /* Contact Form */
     $("#contactForm").validator(contactFormValidationSettings).on("submit", function(event) {
-        debugger;
         $("#contactFormMessage").text("");
         disableButton($(this).find("button[type='submit']"))
         if (event.isDefaultPrevented()) {
