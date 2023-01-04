@@ -97,6 +97,7 @@ $(function(){
                 dataType: "json",
                 crossDomain: "true",
                 contentType: "application/json; charset=utf-8",
+                crossOrigin: false,
                 data: JSON.stringify(data),
 
                 success: function () {
