@@ -241,7 +241,6 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------------------------------------------- */
 .button_container {
     position: relative;
-    margin-top: 64px;
     height: 28px;
     width: 28px;
     cursor: pointer;

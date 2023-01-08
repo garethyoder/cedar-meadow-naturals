@@ -135,11 +135,11 @@ $(function(){
     function contactFormMessage(valid, msg) {
         let msgClasses
         if (valid) {
-            msgClasses = "h3 text-center tada animated";
+            msgClasses = "h6 text-contact tada animated";
         } else {
-            msgClasses = "h3 text-center";
+            msgClasses = "h6 text-contact text-danger";
         }
-        $("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
+        $("#contactFormMessage").removeClass().addClass(msgClasses).text(msg);
     }
 
     function formatPhoneNumberContactForm(phoneNumberString) {
