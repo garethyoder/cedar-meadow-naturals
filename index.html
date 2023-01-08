@@ -194,6 +194,16 @@
 <!--     </div>&lt;!&ndash; /container &ndash;&gt;-->
 <!--     -->
 <!--     -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 wow fadeInUp animated">
+                <div class="col-lg-12 text-home text-center">Why Cedar Meadow Naturals?</div>
+                <p>Our products are <b>All-Natural</b> and hand made in small batches using our own <b>Farm-Sourced tallow</b> as a main ingredient. Tallow is a trusted resource that has been used by even the earliest settlers for skin care, cooking, and as a cleaning agent.  High in <b>Vitamins A, E, D & K,</b> tallow is especially nourishing to the skin and we are positive you will see the difference around your home!</p>
+            </div>
+        </div>
+    </div>
+
      <!-- Line -->
      <div class="container">
            <div class="row">
@@ -208,9 +218,11 @@
                 <div class="col-lg-12 text-home text-center">Our Products</div>
             </div>
             {{#each products}}
-                <div class="row product mb-5">
+                <div class="row product mb-5 wow fadeInUp animated">
                     <div class="product-image col-lg-3 col-md-4 col-sm-5 col-xs-6">
-                        <img src="images/cmn/products/{{image-name}}" alt="{{title}}" class=""/>
+                        {{#if image-name.length}}
+                            <img src="images/cmn/products/{{image-name}}" alt="Picture of {{title}}" class=""/>
+                        {{/if}}
                     </div>
                     <div class="product-description-group col-lg-9 col-md-8 col-sm-7 col-xs-6">
                         <h3 class="product-title">{{title}}</h3>
@@ -247,7 +259,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <button type="button" class="btn btn-primary">Become a Vendor</button>
+<!--                        <button type="button" class="btn btn-primary">Become a Vendor</button>-->
                     </div>
                 </div>
             </div>
@@ -280,40 +292,40 @@
                         <div class="controls">
                             <label>Name:</label>
                             <input type="text" name="name" class="form-control" id="contact-form-name" required="" data-validation-required-message="Please enter your name.">
-                            <div class="help-block with-errors"></div>
+                            <div class="help-block with-errors text-danger"></div>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Phone:</label>
                             <input type="tel" name="phone" class="form-control" id="contact-form-phone" required="" data-validation-required-message="Please enter your phone.">
-                            <div class="help-block with-errors"></div>
+                            <div class="help-block with-errors text-danger"></div>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email:</label>
                             <input type="email" name="email" class="form-control" id="contact-form-email" required="" data-validation-required-message="Please enter your email address.">
-                            <div class="help-block with-errors"></div>
+                            <div class="help-block with-errors text-danger"></div>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Message:</label>
                             <textarea rows="5" cols="100" class="form-control" id="contact-form-message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                            <div class="help-block with-errors"></div>
+                            <div class="help-block with-errors text-danger"></div>
                         </div>
                     </div>
                     <div class="form-group sr-only">
                         <input type="text" class="form-control-input" id="contact-form-hidden" name="hidden">
                         <label for="contact-form-hidden">Leave Empty</label>
-                        <div class="help-block with-errors"></div>
+                        <div class="help-block with-errors text-danger"></div>
                     </div>
 
                     <div id="success"></div>
                     <button type="submit" class="contact-btn btn">Send Message</button>
                     <div class="form-message">
-                        <div id="contactFormMessage" class="h3 text-center hidden"></div>
+                        <div id="contactFormMessage" class="text-center hidden"></div>
                     </div>
                 </form>
             </div>
@@ -343,8 +355,8 @@
             <div class="row">
               <div class="col-sm-9">
 
-                  <p class="float-right"><a href=""><img src="images/twitter.png" alt=""/></a></p>
-                  <p class="float-right icons-f"><a href=""><img src="images/facebook.png" alt=""/></a></p>
+<!--                  <p class="float-right"><a href=""><img src="images/twitter.png" alt=""/></a></p>-->
+                  <p class="float-right icons-f"><a href="https://www.facebook.com/profile.php?id=100088593083080"><img src="images/facebook.png" alt=""/></a></p>
 
 
               </div><!-- /col-sm-9 -->
