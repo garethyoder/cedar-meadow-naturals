@@ -3,7 +3,22 @@
     {
       "id": "hidden-horseshoe",
       "title": "Hidden Horseshoe",
-      "logo-name": "hidden-horseshoe.png"
+      "logo-name": "hidden-horseshoe.png",
+      "address": "821 Little Conestoga Rd.",
+      "city": "Glenmoore",
+      "state": "Pa",
+      "zip": "19343",
+      "directions-link": "https://www.google.com/maps/dir//Hidden+Horseshoe+Produce,+Little+Conestoga+Road,+Glenmoore,+PA/@40.0844547,-75.7729914,13z/data=!3m1!5s0x89c6f534008b2477:0x29b6dcff2a566d57!4m8!4m7!1m0!1m5!1m1!1s0x89c661af96f52f9d:0x36e64dd2ea79d5ad!2m2!1d-75.737972!2d40.08446"
+    },
+    {
+      "id": "painted-table-designs",
+      "title": "Painted Table Designs",
+      "logo-name": "painted-table-designs.jpeg",
+      "address": "4997 N Twin Valley Rd.",
+      "city": "Elverson",
+      "state": "Pa",
+      "zip": "19520",
+      "directions-link": "https://www.google.com/maps/dir//Painted+Table+Designs+Home,+North+Twin+Valley+Road,+Elverson,+PA/@40.1570552,-75.9256724,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c66662d9c2414d:0xa4950efd1a20206a!2m2!1d-75.8556179!2d40.1569461"
     }
   ]
 }
