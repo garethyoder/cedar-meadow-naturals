@@ -82,12 +82,14 @@ $(function(){
         const email = $("#contact-form-email").val();
         const phone = formatPhoneNumberContactForm($("#contact-form-phone").val());
         const message = $("#contact-form-message").val();
+        const form = $("#formSelectionSelect").val();
         const hidden = $("#contact-form-hidden").val();
         const data = {
             name : name,
             phone : phone,
             email : email,
-            desc : message
+            desc : message,
+            form : form
         };
 
         if (hidden === "" && phone != null) {
@@ -166,6 +168,17 @@ $(function(){
         $elementButton.prop("disabled", false)
         $elementButton.find(".submit-text").show()
         $elementButton.find(".spinner").hide()
+    }
+
+    $(".become-a-vendor-link").on("click", function(event) {
+        showBecomeAVendor();
+    });
+
+    function showBecomeAVendor() {
+        $("#contactUsDescription").hide();
+        $("#becomeAVendorDescription").show();
+        $("#formSelection").show();
+        $("#formSelectionSelect option[value='become-a-vendor']").prop('selected', true)
     }
 
 });
