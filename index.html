@@ -242,7 +242,9 @@
                         <h3 class="product-title">{{title}}</h3>
                         <p class="product-description">{{breaklines description}}</p>
 
-                        <p class="product-ingredients font-weight-light small">Ingredients: <em>{{ingredients}}</em></p>
+                        {{#if ingredients.length}}
+                            <p class="product-ingredients font-weight-light small">Ingredients: <em>{{ingredients}}</em></p>
+                        {{/if}}
                         {{#if shop-link.length}}
                             <a class="btn btn-primary product-button" href="{{shop-link}}">Shop Now</a>
                         {{/if}}
