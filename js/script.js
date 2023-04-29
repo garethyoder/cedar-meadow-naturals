@@ -10,6 +10,12 @@ $(function(){
     let ENVIRONMENT=$("#environment").val()
     let BASE_SUBMISSION_URL=$("#baseSubmissionUrl").val()
 
+    Handlebars.registerHelper('breaklines', function(text) {
+        text = Handlebars.Utils.escapeExpression(text);
+        text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+        return new Handlebars.SafeString(text);
+    });
+
     // Handlebars - Products
     var products_json = (function() {
       var json = null;

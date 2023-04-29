@@ -1,12 +1,23 @@
 {
   "products": [
     {
+      "id": "laundry-power",
+      "title": "Laundry Powder",
+      "description": "Our All-Natural Laundry Powder is safe to even the most sensitive skin types and is color safe. One jar provides enough for 32 regular loads or 77 HE loads.  One wooden measuring scoop included with each jar",
+      "ingredients": "Cedar Meadow Tallow, water, & Lye, Oxygen bleach, baking soda, washing soda, lavender essential oils",
+      "price": 25.00,
+      "image-name": "Laundry_Styled.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-lavender-laundry-powder/99?cp=true&sa=false&sbp=false&q=false&category_id=5",
+      "tags": "Laundry Powder"
+    },
+    {
       "id": "lavender-shea",
       "title": "Lavender & Shea",
       "description": "Lavender Shea is a nourishing soap enriched with unrefined shea butter to soothe dry skin.",
       "ingredients": "Saponified oils of Lancaster County, Cedar Meadow Naturals Tallow, coconut, olive, shea butter, and castor; pure lavender essential oil, arrowroot powder, and rosemary oil extract",
       "price": 8.00,
       "image-name": "lavender-shea.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/lavender-shea-soap/98?cp=true&sa=false&sbp=false&q=false&category_id=3",
       "tags": "Bar Soap"
     },
     {
@@ -16,6 +27,7 @@
       "ingredients": "Saponified oils of Lancaster County, Cedar Meadow Naturals Tallow, coconut, olive, castor, and cocoa butter; pure essential oils of sweet orange, vetiver, and geranium; rose clay, and rosemary oil extract",
       "price": 8.00,
       "image-name": "vetiver-orange.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/vetiver-sweet-orange-soap/96?cp=true&sa=false&sbp=false&q=false&category_id=3",
       "tags": "Bar Soap"
     },
     {
@@ -25,33 +37,47 @@
       "ingredients": "Saponified oils of Lancaster County, Cedar Meadow Naturals Tallow, coconut, olive, castor, and cocoa butter; pure essential oils of fir needle and cedar; sea clay and rosemary oil extract.",
       "price": 8.00,
       "image-name": "siberian-fir.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/siberian-fir-soap/95?cp=true&sa=false&sbp=false&q=false&category_id=3",
       "tags": "Bar Soap"
     },
     {
       "id": "exfoliating-herb",
       "title": "Exfoliating Herb",
-      "description": "Experience gentle exfoliating with sage leaf grown in our very own garden. ",
+      "description": "This soap brings the smell of the herb garden inside. Made with Sage Leaves for a gentle and exfoliating scrub. Use as hand soap or in the shower. ",
       "ingredients": "Saponified oils of Lancaster County, Cedar Meadow Naturals Tallow, coconut, olive, castor, and shea butter; pure essential oils of rosemary, sweet basil, lemon, and eucalyptus; ground sage leaf, ground cornmeal, arrowroot powder, rosemary oil extract",
       "price": 8.00,
       "image-name": "exfoliating-herb.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/exfoliating-herb-soap/97?cp=true&sa=false&sbp=false&q=false&category_id=3",
+      "tags": "Bar Soap"
+    },
+    {
+      "id": "citrus-blossom",
+      "title": "Citrus Blossom",
+      "description": "Our Citrus Blossom Soap is a bright spring scent that will cheer up any room. Enriched with mineral rich clays along with moisturizing mango butter, this bar is sure to soothe your senses.",
+      "ingredients": "Saponified oils of Lancaster County, Cedar Meadow Naturals tallow, coconut, olive, castor, and mango butter; pure essential oils of sweet orange, patchouli, grapefruit, lemon, and litsea cubeba; rhassoul clay, moroccan clay, and rosemary oil extract.",
+      "price": 8.00,
+      "image-name": "Citrus_Blossom.PNG",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/citrus-blossom-soap/102?cp=true&sa=true&sbp=false&q=false",
       "tags": "Bar Soap"
     },
     {
       "id": "sm-raw-tallow",
       "title": "Small Cedar Meadow Naturals Tallow",
-      "description": "Beyond just skin care, tallow is amazing in the kitchen.  Tired of the after-taste cooking spray gives to food? Tallow is a great alternative option. It is shelf stable meaning it does not need refrigerated and can be kept by your stove for many months.",
+      "description": "Tallow is a multi-purpose product that has many uses for skin care and in the kitchen.Tired of the after-taste cooking spray gives to food? Tallow is a great alternative option. It is shelf stable and can be kept by your stove for many months. Use tallow for Dry skin, After Sunburn, Infant skin care, Conditioning cast iron, Frying and as a substitute for cooking oil.",
       "ingredients": "Cedar Meadow Naturals Tallow, 6.5oz",
       "price": 8.00,
-      "image-name": "",
+      "image-name": "Tallow_Small.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-beef-tallow-6-5-oz/100?cp=true&sa=false&sbp=false&q=false&category_id=6",
       "tags": "Tallow"
     },
     {
-      "id": "sm-raw-tallow",
+      "id": "lg-raw-tallow",
       "title": "Large Cedar Meadow Naturals Tallow",
       "description": "Beyond just skin care, tallow is amazing in the kitchen.  Tired of the after-taste cooking spray gives to food? Tallow is a great alternative option. It is shelf stable meaning it does not need refrigerated and can be kept by your stove for many months.",
       "ingredients": "Cedar Meadow Naturals Tallow, 13oz",
       "price": 13.00,
-      "image-name": "",
+      "image-name": "Tallow_Large.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-beef-tallow-13-oz/101?cp=true&sa=false&sbp=false&q=false&category_id=6",
       "tags": "Tallow"
     }
   ]
