@@ -1,6 +1,20 @@
 {
   "clients": [
     {
+      "id": "pigeon-creek-farm",
+      "title": "Pigeon Creak Farm",
+      "logo-name": "pigeon-creek-logo-1.png",
+      "address": "554 Pigeon Creek Rd.",
+      "city": "Pottstown",
+      "state": "Pa",
+      "zip": "19465",
+      "phone": "(484) 256-5520",
+      "email": "pigeoncreekfarmpa@gmail.com",
+      "default-website": "https://www.facebook.com/pigeon.creek.farm.pa/",
+      "facebook": "https://www.facebook.com/pigeon.creek.farm.pa/",
+      "directions-link": "https://www.google.com/maps?rlz=1C1ONGR_en&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=Kb8YsEf_icaJMSpQPtLYhH-3&daddr=554+Pigeon+Creek+Rd,+Pottstown,+PA+19465"
+    },
+    {
       "id": "hidden-horseshoe",
       "title": "Hidden Horseshoe",
       "logo-name": "hidden-horseshoe.png",
@@ -19,6 +33,46 @@
       "state": "Pa",
       "zip": "19520",
       "directions-link": "https://www.google.com/maps/dir//Painted+Table+Designs+Home,+North+Twin+Valley+Road,+Elverson,+PA/@40.1570552,-75.9256724,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c66662d9c2414d:0xa4950efd1a20206a!2m2!1d-75.8556179!2d40.1569461"
+    },
+    {
+      "id": "nissley-feed-hardware",
+      "title": "Nissley Feed & Hardware",
+      "logo-name": "nissley-hardware.png",
+      "address": "223 Mill Rd.",
+      "city": "Morgantown",
+      "state": "Pa",
+      "zip": "19543",
+      "directions-link": "https://www.google.com/maps/place/Nissley+Feed+%26+Hardware/@40.147684,-75.889314,15z/data=!4m6!3m5!1s0x89c6663f9e1f6297:0x6bce1d88df070911!8m2!3d40.1476833!4d-75.878314!16s%2Fg%2F1tggvgnq?entry=ttu"
+    },
+    {
+      "id": "grandma-zooks",
+      "title": "Grandma Zook's Bakery & Produce",
+      "logo-name": "GrandmaZooksLogo.jpg",
+      "logo-class": "rounded-logo",
+      "address": "1205 Pottstown Pike",
+      "city": "Glenmoore",
+      "state": "Pa",
+      "zip": "19343",
+      "phone": "(610) 656-6318",
+      "email": "angie@grandmazooks.com",
+      "default-website": "https://grandmazooks.com/market/cafe/",
+      "facebook": "https://www.facebook.com/grandmazooks",
+      "directions-link": "https://www.google.com/maps?q=grandma+zooks&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj_sIb4z6H-AhWDk4kEHbH4C-kQ0pQJegQIBxAG"
+    },
+    {
+      "id": "cedar-creek-farm-market",
+      "title": "Cedar Creek Farm Market",
+      "logo-name": "cedar-creek-farm-market.jpg",
+      "logo-class": "rounded-logo",
+      "address": "5066 Division Hwy, East Earl, PA 17519",
+      "city": "East Earl",
+      "state": "Pa",
+      "zip": "17519",
+      "phone": "(717) 351-5220",
+      "email": "cedarcreekfarmmarketllc@gmail.com",
+      "default-website": "https://www.facebook.com/profile.php?id=100067933248746",
+      "facebook": "https://www.facebook.com/profile.php?id=100067933248746",
+      "directions-link": "https://www.google.com/maps?rlst=f&rlz=1C1ONGR_en&lqi=CgtjZWRhciBjcmVla0ilodSYprCAgAhaFRAAEAEYABgBIgtjZWRhciBjcmVla5IBDmZhcm1lcnNfbWFya2V0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJoZGpsRVpDMW5SUkFCqgEzEAEaHhABIhp2N68JKAAOfOZQF9vxzNJYh1DSdBatRmJAjSoPIgtjZWRhciBjcmVlaygA4AEA&phdesc=VmrBpxxOy8w&vet=12ahUKEwitnPiD2Mj9AhUEF1kFHWb9BucQ8UF6BAgDEBM..i&lei=JJYGZK36HISu5NoP5vqbuA4&cs=1&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=Kfk1Fhqma8aJMVs57bWAKDJ_&daddr=5066+Division+Hwy,+East+Earl,+PA+17519"
     }
   ]
 }
