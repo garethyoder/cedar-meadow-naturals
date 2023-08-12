@@ -61,6 +61,16 @@
       "tags": "Bar Soap"
     },
     {
+      "id": "unscented",
+      "title": "Unscented",
+      "description": "Pure, Simple, and as friendly as your skin could ask for, this soap is all-natural and many ingredients come from right here in Lancaster County.  The unscented bar is gentle enough for infants, giving a second option to traditional baby brands and doubles as a great option for hunters during the fall.",
+      "ingredients": "Saponified oils of Lancaster County, Cedar Meadow tallow, olive, coconut, and castor; Lancaster-grown herb tea of calendula petals, lavender, and chamomile; and rosemary oil extract.",
+      "price": 8.00,
+      "image-name": "",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/unscented-soap/127?cp=true&sa=false&sbp=false&q=false&category_id=3",
+      "tags": "Bar Soap"
+    },
+    {
       "id": "soap-bundle",
       "title": "Soap Bundle - 4pk",
       "description": "A 4 pack set of all your favorite soaps including Vetiver & Orange, Siberian Fir, Lavender & Shea, and Exfoliating Herb",
@@ -89,6 +99,26 @@
       "image-name": "Tallow_Large.jpg",
       "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-beef-tallow-13-oz/101?cp=true&sa=false&sbp=false&q=false&category_id=6",
       "tags": "Tallow"
+    },
+    {
+      "id": "summer-herb",
+      "title": "Summer Herb Lip Balm",
+      "description": "The freshest and softest all natural herb inspired balm. We can’t rave about this flavor enough as it is both uniquely refreshing and leaves your lips hydrated and smooth.",
+      "ingredients": "Saponified oils of avocado, shea butter, Cedar Meadow Tallow, coconut, and olive; and pure essential oils of  rosemary and spearmint.",
+      "price": 4.50,
+      "image-name": "",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/summer-herb-lip-balm/125?cp=true&sa=false&sbp=false&q=false&category_id=7",
+      "tags": "Lip Balm"
+    },
+    {
+      "id": "grapefruit-mint",
+      "title": "Grapefruit Mint Lip Balm",
+      "description": "A marriage of grapefruit and mint with a side kick of lemongrass- the perfect combination that keeps your lips coming back for more. This all- natural lip balm will leave your lips glossy and smooth.",
+      "ingredients": "Saponified oils of avocado, shea butter, Cedar Meadow Tallow, coconut, and olive; and pure essential oils of [Mint & Grapefruit variety] grapefruit, spearmint, and litsea cubeba.",
+      "price": 4.50,
+      "image-name": "",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/grapefruit-mint-lip-balm/126?cp=true&sa=false&sbp=false&q=false&category_id=7",
+      "tags": "Lip Balm"
     }
   ]
 }
