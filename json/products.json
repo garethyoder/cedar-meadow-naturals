@@ -1,6 +1,16 @@
 {
   "products": [
     {
+      "id": "liquid-tallow-hand-soap",
+      "title": "Liquid Tallow Hand Soap",
+      "description": "Soften, nourish and restore your hands' natural oils with our all-natural tallow hand soap.  Our hand soap contains fatty acids combined with other oils that are sure to leave your hands soothed and nourished.\n\nThis beautiful glass bottle is not only eye catching next to your sink, its packaged to ensure our products are free of any harmful chemicals.",
+      "ingredients": "Water, Saponified oils of Lancaster County, Cedar Meadow Natural's Tallow, coconut, olive, shea butter, and castor; pure lavender essential oil, arrowroot powder, and rosemary oil extract",
+      "price": 15.00,
+      "image-name": "liquid-tallow-hand-soap.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/liquid-tallow-hand-soap/187",
+      "tags": "Liquid Tallow Hand Soap"
+    },
+    {
       "id": "whipped-tallow",
       "title": "Whipped Tallow",
       "description": "Whipped Tallow is nature's best body cream. Its smooth texture, complexion correction abilities, and anti-aging properties makes it ideal for face moisturizer, eye cream, sun burn and so much more. Use Whipped Tallow for all day moisturizer as part of your daily skin care routine!",
