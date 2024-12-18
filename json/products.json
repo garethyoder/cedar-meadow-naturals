@@ -22,9 +22,9 @@
     },
     {
       "id": "raw-tallow",
-      "title": "Cedar Meadow Naturals Tallow",
+      "title": "Cedar Meadow Beef Tallow",
       "description": "Beyond just skin care, tallow is amazing in the kitchen.  Tired of the after-taste cooking spray gives to food? Tallow is a great alternative option. It is shelf stable meaning it does not need refrigerated and can be kept by your stove for many months.",
-      "ingredients": "Cedar Meadow Naturals Tallow, 13oz",
+      "ingredients": "Cedar Meadow Naturals Tallow",
       "price": 16.00,
       "image-name": "2024/tallow.jpg",
       "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-beef-tallow-13-oz/101?cp=true&sa=false&sbp=false&q=false&category_id=6",
@@ -51,9 +51,19 @@
       ]
     },
     {
-      "id": "laundry-power",
-      "title": "Laundry Powder",
-      "description": "Our All-Natural Laundry Powder is safe to even the most sensitive skin types and is color safe. One jar provides enough for 32 regular loads or 77 HE loads.  One wooden measuring scoop included with each jar",
+      "id": "raw-lard",
+      "title": "Cedar Meadow Pork Lard",
+      "description": "Lard is a natural, traditional fat that's perfect for homesteading enthusiasts looking to embrace self-sufficiency. With its rich, hearty flavor and versatility in cooking, lard is ideal for baking, frying, and sautéing- all while being a sustainable, wholesome choice for your kitchen. Rich in nutrients and free from additives, it's a time-tested fat that brings authenticity and flavor to every meal.",
+      "ingredients": "Cedar Meadow Naturals Lard",
+      "price": 8.50,
+      "image-name": "2024/lard.jpg",
+      "shop-link": "https://cedarmeadownaturals.square.site/product/all-natural-pork-lard/189?cp=true&sa=true&sbp=false&q=false",
+      "tags": "Lard"
+    },
+    {
+      "id": "laundry-detergent",
+      "title": "Laundry Detergent",
+      "description": "Our All-Natural Laundry Detergent is safe to even the most sensitive skin types and is color safe. One jar provides enough for 45 regular loads or 90 HE loads.  One wooden measuring scoop included with each jar",
       "ingredients": "Cedar Meadow Tallow, water, & Lye, Oxygen bleach, baking soda, washing soda, lavender essential oils",
       "price": 25.00,
       "image-name": "2024/laundry-powder.JPG",
